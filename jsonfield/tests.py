@@ -1,6 +1,6 @@
 from django.db import models
 from django.test import TestCase
-from django.utils import simplejson as json
+import simplejson as json
 
 from fields import JSONField
 
