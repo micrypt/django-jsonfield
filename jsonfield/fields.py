@@ -5,7 +5,7 @@ from django.utils.translation import ugettext_lazy as _
 from django.forms.fields import Field
 from django.forms.util import ValidationError as FormValidationError
 
-from .encoder import DjangoJSONEncoder
+from encoder import DjangoJSONEncoder
 
 class JSONFormField(Field):
     def clean(self, value):
